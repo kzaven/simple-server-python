@@ -10,7 +10,8 @@ FROM resin/%%RESIN_MACHINE_NAME%%-python
 
 # Set our working directory
 WORKDIR /usr/src/app
-
+RUN apt-get update
+RUN apt-get install vim gem
 # Copy requirements.txt first for better cache on later pushes
 COPY ./requirements.txt /requirements.txt
 
