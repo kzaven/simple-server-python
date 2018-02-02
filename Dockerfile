@@ -13,7 +13,8 @@ FROM resin/jetson-tx2-debian:stretch
 # Set our working directory
 WORKDIR /usr/src/app/m2
 RUN apt-get update
-RUN apt-get install vim gem python-pip
+RUN apt-get install vim gem python-pip python-setuptools
+
 # Copy requirements.txt first for better cache on later pushes
 COPY ./requirements.txt /requirements.txt
 
