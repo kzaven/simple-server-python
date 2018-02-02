@@ -1,7 +1,8 @@
 # base-image for python on any machine using a template variable,
 # see more about dockerfile templates here:http://docs.resin.io/pages/deployment/docker-templates
 #Zaven
-FROM resin/%%RESIN_MACHINE_NAME%%-python
+#FROM resin/%%RESIN_MACHINE_NAME%%-python
+resin/jetson-tx2-debian:stretch
 
 # use apt-get if you need to install dependencies,
 # for instance if you need ALSA sound utils, just uncomment the lines below.
