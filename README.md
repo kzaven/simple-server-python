@@ -1,5 +1,5 @@
 ## A Simple Server with Python Flask
-
+#######################################
 This is a simple skeleton Flask server project that works on any of the devices supported by [resin.io][resin-link].
 
 This project simply serves up `"Hello World!"` on port `:80` of your resin.io device.
@@ -29,3 +29,4 @@ Then in your browser you should be able to open the device URL and see the messa
 [resin-link]:https://resin.io/
 [signup-page]:https://dashboard.resin.io/signup
 [gettingStarted-link]:http://docs.resin.io/#/pages/installing/gettingStarted.md
+
